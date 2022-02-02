@@ -15,14 +15,13 @@ export class AppComponent {
   
   display() {
 
-      this.counter
-
+      
   }
     
     
   increment() {
 
-      if (this.counter % 3 == 0) 
+      if (this.counter % 3 === 0) 
           {
             this.toggle = !this.toggle; 
             this.greet = 'American'; }  
@@ -33,10 +32,14 @@ export class AppComponent {
               }
          
 
-      if (this.counter % 5 === 0) this.greet = 'Medical'
+      if (this.counter % 5 === 0) 
+        { this.toggle = !this.toggle;
+          this.greet = 'Medical' }
         
 
-      if (this.counter % 3 === 0 && this.counter % 5 === 0) this.greet = 'Opportunities'
+      if (this.counter % 3 === 0 && this.counter % 5 === 0) 
+        { this.toggle = !this.toggle;
+          this.greet = 'Opportunities'}
         
       
 
