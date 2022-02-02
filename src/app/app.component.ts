@@ -7,10 +7,10 @@ import { Component, Input, Output, EventEmitter } from '@angular/core';
 })
 export class AppComponent {
   title = 'ang';
-  counter = 0
+  counter = 1
   greet = ''
 
-  //@Output() newClick = new EventEmitter()
+  
 
   
 
@@ -18,13 +18,13 @@ export class AppComponent {
     
   increment() {
 
-      if (this.counter % 3 == 0 && this.counter > 0) this.greet = 'American'
+      if (this.counter % 3 == 0) this.greet = 'American'
 
 
-      if (this.counter % 5 === 0 && this.counter > 0) this.greet = 'Medical'
+      if (this.counter % 5 === 0) this.greet = 'Medical'
 
 
-      if (this.counter % 3 === 0 && this.counter % 5 === 0 && this.counter > 0) this.greet = 'Opportunities'
+      if (this.counter % 3 === 0 && this.counter % 5 === 0) this.greet = 'Opportunities'
 
       if (this.counter === 100) this.counter = 0;
 
