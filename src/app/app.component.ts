@@ -9,21 +9,28 @@ export class AppComponent {
   title = 'ang';
   counter = 1
   greet = ''
-  display = 'true'
+  toggle = true
   
 
   
-  true() {
+  display() {
 
-
+      this.counter
 
   }
     
     
   increment() {
 
-      if (this.counter % 3 == 0) this.greet = 'American'  
-            else this.greet = ''
+      if (this.counter % 3 == 0) 
+          {
+            this.toggle = !this.toggle; 
+            this.greet = 'American'; }  
+            
+      else {
+              this.toggle = true
+              this.greet = ''
+              }
          
 
       if (this.counter % 5 === 0) this.greet = 'Medical'
