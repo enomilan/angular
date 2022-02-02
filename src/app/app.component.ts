@@ -7,13 +7,17 @@ import { Component, Input, Output, EventEmitter } from '@angular/core';
 })
 export class AppComponent {
   title = 'ang';
-  public click = 'button'
+  counter = 0
 
   @Output() newClick = new EventEmitter()
 
-  onClick() {
+  
 
-    console.log('Button')
+    
+    
+  increment() {
+    	this.counter++;
+    
 
   }
 
