@@ -24,7 +24,7 @@ export class AppComponent {
       if (this.counter % 5 === 0 && this.counter > 0) this.greet = 'Medical'
 
 
-      if (this.counter % 3 === 0 && this.counter % 5 === 0 && this.counter > 0) this.greet = 'Opportunity'
+      if (this.counter % 3 === 0 && this.counter % 5 === 0 && this.counter > 0) this.greet = 'Opportunities'
 
       if (this.counter === 100) this.counter = 0;
 
