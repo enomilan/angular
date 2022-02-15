@@ -35,7 +35,7 @@ export class AppComponent {
 
     //     { this.medVal += 5;
     //       this.toggle = !this.toggle;
-    //       this.greet = 'Medical' }
+    //       this.greet = 'Vaffanculo' }
         
 
     //   if (this.counter === this.opVal) 
