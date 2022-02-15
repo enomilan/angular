@@ -23,7 +23,7 @@ export class AppComponent {
     //       { 
     //         this.amVal += 3;
     //         this.toggle = !this.toggle; 
-    //         this.greet = 'American'; }  
+    //         this.greet = 'Interista'; }  
             
     //   else {
     //           this.toggle = true
