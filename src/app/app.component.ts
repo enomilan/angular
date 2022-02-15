@@ -65,12 +65,12 @@ export class AppComponent {
 
       if (this.counter % 5 === 0) 
         { this.toggle = !this.toggle;
-          this.greet = 'Medical' }
+          this.greet = 'Milan' }
         
 
       if (this.counter % 3 === 0 && this.counter % 5 === 0) 
         { this.toggle = !this.toggle;
-          this.greet = 'Opportunities'}
+          this.greet = 'Campione'}
         
       
 
