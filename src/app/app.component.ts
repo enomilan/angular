@@ -55,7 +55,7 @@ export class AppComponent {
       if (this.counter % 3 === 0) 
           {
             this.toggle = !this.toggle; 
-            this.greet = 'American'; }  
+            this.greet = 'Forza'; }  
             
       else {
               this.toggle = true
