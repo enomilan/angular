@@ -7,7 +7,7 @@ import { Component, Input, Output, EventEmitter } from '@angular/core';
 })
 export class AppComponent {
   title = 'ang';
-  counter = 1
+  counter = 0
   greet = ''
   toggle = true
   
