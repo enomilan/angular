@@ -19,35 +19,35 @@ export class AppComponent {
     
   increment() {
 
-    // if (this.counter  === this.amVal) 
-    //       { 
-    //         this.amVal += 3;
-    //         this.toggle = !this.toggle; 
-    //         this.greet = 'Interista'; }  
+    if (this.counter  === this.amVal) 
+          { 
+            this.amVal += 3;
+            this.toggle = !this.toggle; 
+            this.greet = 'Interista'; }  
             
-    //   else {
-    //           this.toggle = true
-    //           this.greet = ''
-    //           }
+      else {
+              this.toggle = true
+              this.greet = ''
+              }
          
 
-    //   if (this.counter === this.medVal)
+      if (this.counter === this.medVal)
 
-    //     { this.medVal += 5;
-    //       this.toggle = !this.toggle;
-    //       this.greet = 'Vaffanculo' }
+        { this.medVal += 5;
+          this.toggle = !this.toggle;
+          this.greet = 'Vaffanculo' }
         
 
-    //   if (this.counter === this.opVal) 
-    //     { this.opVal += 15;
-    //       this.toggle = !this.toggle;
-    //       this.greet = 'Opportunities'}   
+      if (this.counter === this.opVal) 
+        { this.opVal += 15;
+          this.toggle = !this.toggle;
+          this.greet = 'Opportunities'}   
 
-    //  if (this.counter === 100) 
-    //      {this.counter = 0;
-    //       this.amVal = 2;
-    //       this.medVal = 4;
-    //       this.opVal = 14; } 
+     if (this.counter === 100) 
+         {this.counter = 0;
+          this.amVal = 2;
+          this.medVal = 4;
+          this.opVal = 14; } 
           
           
       //Modulo solution
