@@ -11,9 +11,9 @@ export class AppComponent {
   greet = ''
   toggle = true
   
-  // amVal = 2
-  // medVal = 4
-  // opVal = 14
+  amVal = 2
+  medVal = 4
+  opVal = 14
   
      
     
