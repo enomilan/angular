@@ -41,7 +41,7 @@ export class AppComponent {
       if (this.counter === this.opVal) 
         { this.opVal += 15;
           this.toggle = !this.toggle;
-          this.greet = 'Pezzo '}   
+          this.greet = 'Pezzo di Merda'}   
 
      if (this.counter === 100) 
          {this.counter = 0;
