@@ -23,7 +23,7 @@ export class AppComponent {
           { 
             this.amVal += 3;
             this.toggle = !this.toggle; 
-            this.greet = 'Interista'; }  
+            this.greet = 'Inter Inter'; }  
             
       else {
               this.toggle = true
