@@ -50,27 +50,27 @@ export class AppComponent {
           this.opVal = 14; } 
           
           
-      Modulo solution
+      // Modulo solution
           
-      if (this.counter % 3 === 0) 
-          {
-            this.toggle = !this.toggle; 
-            this.greet = 'Forza'; }  
+      // if (this.counter % 3 === 0) 
+      //     {
+      //       this.toggle = !this.toggle; 
+      //       this.greet = 'Forza'; }  
             
-      else {
-              this.toggle = true
-              this.greet = ''
-              }
+      // else {
+      //         this.toggle = true
+      //         this.greet = ''
+      //         }
          
 
-      if (this.counter % 5 === 0) 
-        { this.toggle = !this.toggle;
-          this.greet = 'Milan' }
+      // if (this.counter % 5 === 0) 
+      //   { this.toggle = !this.toggle;
+      //     this.greet = 'Milan' }
         
 
-      if (this.counter % 3 === 0 && this.counter % 5 === 0) 
-        { this.toggle = !this.toggle;
-          this.greet = 'Campione'}
+      // if (this.counter % 3 === 0 && this.counter % 5 === 0) 
+      //   { this.toggle = !this.toggle;
+      //     this.greet = 'Campione'}
         
       
 
